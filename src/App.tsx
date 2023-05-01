@@ -34,16 +34,13 @@ function App() {
                 anything I can and have enjoyed myself along the way.
               </p>
               <p>
-                When I'm not programming at work, I'm programming at home. Gaming
-                is a passion of mine and so I often spend hours creating addons
-                for other people around the world to use. At the moment, I am
-                maintaining four different addons for the MMORPG Wildstar,
-                servicing over 750,000 downloads to date, as well as dabbling in a
-                voxel based browser game, and a VR based space game.
+                Gaming is a <strong>passion</strong> of mine, both playing and building. Currently I'm working 
+                on a deformable terrain algorithm using <strong>WebGPU</strong>, processing the world on the GPU
+                using compute shaders.
               </p>
               <p>
-                I have a <strong>passion for new technology</strong>
-                and enjoy researching in my spare time. Coding software using things such as event stores to aid
+                I have a <strong>passion for new technology</strong> and 
+                enjoy researching in my spare time. Coding software using things such as event stores to aid
                 auditability within apps, Reactive Extensions and tools like <strong>
                 Docker, Concourse and TinkerPop</strong>, which I can look back on if the
                 need ever arises at work.
@@ -54,99 +51,57 @@ function App() {
               <h2>Skills</h2>
               
               <div className="c-skills">
-                
                 <div className="c-skills__item">C#</div>
-                
                 <div className="c-skills__item">Golang</div>
-                
                 <div className="c-skills__item">Javascript</div>
-                
                 <div className="c-skills__item">Kotlin</div>
-                
                 <div className="c-skills__item">Java</div>
-                
                 <div className="c-skills__item">Swift</div>
-                
                 <div className="c-skills__item">C++</div>
-                
               </div>
               
               <div className="c-skills">
-                
                 <div className="c-skills__item">Visual Studio</div>
-                
                 <div className="c-skills__item">Intellij</div>
-                
                 <div className="c-skills__item">VSCode</div>
-                
                 <div className="c-skills__item">Git</div>
-                
                 <div className="c-skills__item">Jira</div>
-                
                 <div className="c-skills__item">Jenkins</div>
-                
                 <div className="c-skills__item">Azure Devops</div>
-                
               </div>
               
               <div className="c-skills">
-                
                 <div className="c-skills__item">.Net Core</div>
-                
                 <div className="c-skills__item">Android</div>
-                
                 <div className="c-skills__item">React</div>
-                
                 <div className="c-skills__item">iOS</div>
-                
                 <div className="c-skills__item">Linux</div>
-                
               </div>
               
               <div className="c-skills">
-                
                 <div className="c-skills__item">SQL Server</div>
-                
                 <div className="c-skills__item">MySQL</div>
-                
                 <div className="c-skills__item">Kafka</div>
-                
                 <div className="c-skills__item">RabbitMQ</div>
-                
                 <div className="c-skills__item">InfluxDB</div>
-                
                 <div className="c-skills__item">Elasticsearch</div>
-                
               </div>
               
               <div className="c-skills">
-                
                 <div className="c-skills__item">AWS</div>
-                
                 <div className="c-skills__item">GCP</div>
-                
                 <div className="c-skills__item">Azure</div>
-                
                 <div className="c-skills__item">Docker</div>
-                
                 <div className="c-skills__item">Kubernetes</div>
-                
                 <div className="c-skills__item">Terraform</div>
-                
               </div>
               
               <div className="c-skills">
-                
                 <div className="c-skills__item">Agile</div>
-                
                 <div className="c-skills__item">Pair Programming</div>
-                
                 <div className="c-skills__item">TDD</div>
-                
                 <div className="c-skills__item">CI</div>
-                
                 <div className="c-skills__item">CD</div>
-                
               </div>
               
             </div>
@@ -168,15 +123,18 @@ function App() {
                   Tech Lead
                 </h5>
                 <ul>
-                  <li>Responsible for primary digital platforms including eCommerce & The Body Shop at Home.</li>
-                  <li>Recruited & managed <strong>first</strong> in-house dev teams for the company.</li>
+                  <li>Responsible for primary digital platforms including e-commerce & The Body Shop at Home.</li>
+                  <li>Built <strong>first in-house dev teams</strong> for the company.</li>
+                  <li>Guided the teams through the breakup of two monolith architectures.</li>
+                  <li>Unpicked legacy systems and transitioned them to a more sustainable support model.</li>
+                  <li>Led on transition to <strong>agile</strong>, transitioning from big bang releases to <strong>daily releases</strong>.</li>
                 </ul>
 
                 <div>
                   <div className="c-skills" style={({overflow: 'auto'})}>
                     <div className="c-skills__item u-bold">Primary Stack:</div>
-                    <div className="c-skills__item">C#</div>
                     <div className="c-skills__item">Java</div>
+                    <div className="c-skills__item">C#</div>
                     <div className="c-skills__item">MSSQL</div>
                     <div className="c-skills__item">Azure</div>
                     <div className="c-skills__item">Docker</div>
@@ -191,14 +149,14 @@ function App() {
                   Principal Software Engineer
                 </h5>
                 <ul>
-                  <li>Implemented cloud devops model for the domain, leveraging Kubernetes, Alerting & GitOps.</li>
-                  <li>Lead team of senior developers responsible for defining development principles.</li>
+                  <li>Implemented cloud devops model for the domain, leveraging <strong>Kubernetes, Alerting & GitOps</strong>.</li>
+                  <li>Led team of senior developers responsible for defining development principles.</li>
                   <li>Architecture & development of a stock system processing ~40 million transactions / day.</li>
-                  <li>Simplification of domain architecture using microservices, driving capabilities over products.</li>
-                  <li>Rallied for the use of .net core & Docker to help improve the integration with the infradev team & dramatically reduce the infrastructure costs of products.</li>
+                  <li>Simplification of domain architecture using <strong>microservices</strong>, driving capabilities over products.</li>
+                  <li>Rallied for the use of <strong>.net core & Docker</strong> to help improve the integration with the infradev team & dramatically reduce the infrastructure costs of products.</li>
                   <li>Introduced CQRS event sourcing model to simplify application architecture.</li>
-                  <li>Drove adoption of unit & integration testing within applications, encouraging teams to adopt test driven development (TDD).</li>
-                  <li>Led on decision & implementation of migration from Windows EC2 to a fully dockerized linux ecosystem across both Azure & AWS using kubernetes.</li>
+                  <li>Drove adoption of <strong>unit & integration testing</strong> within applications, encouraging teams to adopt test driven development (TDD).</li>
+                  <li>Led on decision & implementation of migration from Windows EC2 to a <strong>fully dockerized linux ecosystem</strong> across both Azure & AWS using kubernetes.</li>
                 </ul>
 
                 <div>
@@ -222,9 +180,9 @@ function App() {
                 </h5>
                 <ul>
                   <li>Member of messaging team at an agile .net shop, responsible for ~4 million SMS / day.</li>
-                  <li>Wrote and maintained the backend & monitoring of the system to achieve maximum throughput to our suppliers, with an extensive
-                    suite of automated tests.</li>
-                  <li>Led a small agile team to produce a monitoring solution for our clients, with effective WoW.</li>
+                  <li>Wrote and maintained the backend & monitoring of the system to achieve <strong>maximum throughput</strong> to our suppliers, with an extensive
+                    suite of <strong>automated tests</strong>.</li>
+                  <li>Led a small agile team to produce a monitoring solution for our clients, with effective ways of working.</li>
                 </ul>
 
 
@@ -248,7 +206,7 @@ function App() {
                 </h5>
                 <ul>
                   <li>Developed telephone recording solutions including Motorola Police Radio & Skype.</li>
-                  <li>Introduced Jenkins to allow us to get closer to continuous integration.</li>
+                  <li>Introduced Jenkins to allow us to get closer to <strong>continuous integration</strong>.</li>
                 </ul>
 
                 <div>
