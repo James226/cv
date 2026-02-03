@@ -51,11 +51,11 @@ function App() {
               <h2>Skills</h2>
               
               <div className="c-skills">
-                <div className="c-skills__item">C#</div>
                 <div className="c-skills__item">Golang</div>
-                <div className="c-skills__item">Javascript</div>
                 <div className="c-skills__item">Kotlin</div>
                 <div className="c-skills__item">Java</div>
+                <div className="c-skills__item">C#</div>
+                <div className="c-skills__item">Javascript</div>
                 <div className="c-skills__item">Swift</div>
                 <div className="c-skills__item">C++</div>
               </div>
@@ -79,11 +79,11 @@ function App() {
               </div>
               
               <div className="c-skills">
-                <div className="c-skills__item">SQL Server</div>
-                <div className="c-skills__item">MySQL</div>
                 <div className="c-skills__item">Kafka</div>
+                <div className="c-skills__item">MySQL</div>
+                <div className="c-skills__item">Redis</div>
+                <div className="c-skills__item">SQL Server</div>
                 <div className="c-skills__item">RabbitMQ</div>
-                <div className="c-skills__item">InfluxDB</div>
                 <div className="c-skills__item">Elasticsearch</div>
               </div>
               
@@ -117,17 +117,44 @@ function App() {
               <h2>Professional</h2>
 
               <div className="c-role">
+                <h3>Vonage</h3>
+                <h5>
+                  <div className="u-right">September 2023 - Present</div>
+                  Engineering Manager
+                </h5>
+                <ul>
+                  <li>Advocating <strong>advanced kubernetes techniques</strong> to manage our <strong>global</strong> service presence.</li>
+                  <li>Working with sales & support to ensure <strong>customer success</strong>.</li>
+                  <li>Using Redis in <strong>innovative ways</strong> to solve <strong>high-throughput</strong> data challenges.</li>
+                  <li>Responsible for SMS platform <strong>requirements, technical leadership and management</strong>.</li>
+                  <li>Leading a team of talented engineers to deliver <strong>scalable</strong> and <strong>reliable</strong> services.</li>
+                </ul>
+
+                <div>
+                  <div className="c-skills" style={({overflow: 'auto'})}>
+                    <div className="c-skills__item u-bold">Primary Stack:</div>
+                    <div className="c-skills__item">Java</div>
+                    <div className="c-skills__item">Go</div>
+                    <div className="c-skills__item">Redis</div>
+                    <div className="c-skills__item">Kafka</div>
+                    <div className="c-skills__item">AWS</div>
+                    <div className="c-skills__item">Kubernetes</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="c-role">
                 <h3>The Body Shop</h3>
                 <h5>
-                  <div className="u-right">October 2021 - Present</div>
+                  <div className="u-right">October 2021 - September 2023</div>
                   Tech Lead
                 </h5>
                 <ul>
-                  <li>Responsible for primary digital platforms including e-commerce & The Body Shop at Home.</li>
-                  <li>Built <strong>first in-house dev teams</strong> for the company.</li>
+                  <li>Built & managed <strong>first in-house dev teams</strong> for the company.</li>
                   <li>Guided the teams through the breakup of two monolith architectures.</li>
-                  <li>Unpicked legacy systems and transitioned them to a more sustainable support model.</li>
                   <li>Led on transition to <strong>agile</strong>, transitioning from big bang releases to <strong>daily releases</strong>.</li>
+                  <li>Unpicked legacy systems and transitioned them to a more sustainable support model.</li>
+                  <li>Responsible for digital platforms including e-commerce & The Body Shop at Home.</li>
                 </ul>
 
                 <div>
@@ -149,19 +176,17 @@ function App() {
                   Principal Software Engineer
                 </h5>
                 <ul>
-                  <li>Implemented cloud devops model for the domain, leveraging <strong>Kubernetes, Alerting & GitOps</strong>.</li>
+                  <li>Implemented devops model for the domain, leveraging <strong>Kubernetes, Alerting & GitOps</strong>.</li>
                   <li>Led team of senior developers responsible for defining development principles.</li>
                   <li>Architecture & development of a stock system processing ~40 million transactions / day.</li>
-                  <li>Simplification of domain architecture using <strong>microservices</strong>, driving capabilities over products.</li>
-                  <li>Rallied for the use of <strong>.net core & Docker</strong> to help improve the integration with the infradev team & dramatically reduce the infrastructure costs of products.</li>
-                  <li>Introduced CQRS event sourcing model to simplify application architecture.</li>
-                  <li>Drove adoption of <strong>unit & integration testing</strong> within applications, encouraging teams to adopt test driven development (TDD).</li>
-                  <li>Led on decision & implementation of migration from Windows EC2 to a <strong>fully dockerized linux ecosystem</strong> across both Azure & AWS using kubernetes.</li>
+                  <li>Simplification of architecture using <strong>microservices</strong>, driving capabilities over products.</li>
+                  <li>Led on decision & implementation of migration from Windows EC2 to <strong>Linux kubernetes</strong>.</li>
                 </ul>
 
                 <div>
                   <div className="c-skills" style={({overflow: 'auto'})}>
                     <div className="c-skills__item u-bold">Primary Stack:</div>
+                    <div className="c-skills__item">Go</div>
                     <div className="c-skills__item">C#</div>
                     <div className="c-skills__item">Kotlin</div>
                     <div className="c-skills__item">MSSQL</div>
